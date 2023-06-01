@@ -1,0 +1,169 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+header{
+    background-color: rgba(30,180,228,1);
+}
+.titulo-Principal{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #eba416;
+    text-decoration: underline;
+}
+
+.fondo1{
+    width: 100%;
+    height: 800px;
+}
+
+h2{
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: rgba(30,180,228,1);
+}
+
+h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    margin: 35px auto;
+    background-color: rgba(30,180,228,1);
+}
+
+.body{
+    width: 1280px;
+}
+
+.imgbloque1{
+    width: 734px;
+    height: 404px;
+    display: inline-block;
+    border-radius: 25% 10%;
+}
+
+.bloque1{
+    position: absolute;
+    left: 700px;
+    padding: 50px;
+    margin: 0 20px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    
+}
+
+.bloque1 strong{
+    font-weight: bolder;
+}
+
+.bloque1 p{
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.imgbloque2{
+    display: inline-block;
+    border-radius: 10px 100px / 120px;
+
+}
+.bloque2{
+    position: absolute;
+    margin: 0 20px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    height: 300px;
+    font-weight: bold;
+}
+
+.bloque2 li{
+    margin: 2em;
+}
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: rgba(30,180,228,1);
+}
+
+.bloque-contacto{
+    position: relative;
+    left:200px;
+    width: 100%;
+    margin: 0 30px;
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(245, 244, 245) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px 100px / 120px;
+}
+
+section p{
+    margin: 1em;
+}
+
+.whatsapp{
+    position: relative;
+    left: 775px;
+    top: -100px;
+}
+
+footer p{
+    color: antiquewhite;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    background: url(Imagenes/Footer.png);
+    padding: 40px;
+}
+footer p{
+    margin: 1em;
+}
+
+/*ACA TERMINA INDEX*/
+

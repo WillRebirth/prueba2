@@ -1,0 +1,95 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+header{
+    background-color: rgba(30,180,228,1);
+}
+
+.titulo-Principal{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #eba416;
+    text-decoration: underline;
+}
+
+.fondo-nosotros{
+    display: inline-block;
+    margin: 7em auto;
+    top: 100px;
+    width: 100%;
+}
+
+.Parrafo p{
+    margin: 1em 8em;
+    width: 70%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Parrafo{
+    background-color: aliceblue;
+}
+
+p strong{
+    font-weight: bolder;
+}
+
+p em{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.mapa{
+    margin: 4em auto;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mapa p{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+footer p{
+    color: antiquewhite;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    background: url(Imagenes/Footer.png);
+    padding: 40px;
+}
+footer p{
+    margin: 1em;
+}

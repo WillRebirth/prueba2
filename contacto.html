@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@300&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Estudio Contable EAD-Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="titulo-Principal">Estudio Contable EAD</h1>
+            <nav>
+                <ul>
+                    <li><a href="C:/Users/nicol/OneDrive/Documents/Curso Oracle/Logica Programacion/HTML5 CSS/Prueba2/index.html">Inicio</a></li>
+                    <li><a href="C:/Users/nicol/OneDrive/Documents/Curso Oracle/Logica Programacion/HTML5 CSS/Prueba2/nosotros.html">Nosotros</a></li>
+                    <li><a href="C:/Users/nicol/OneDrive/Documents/Curso Oracle/Logica Programacion/HTML5 CSS/Prueba2/servicios.html">Servicios</a></li>
+                    <li><a href="C:/Users/nicol/OneDrive/Documents/Curso Oracle/Logica Programacion/HTML5 CSS/Prueba2/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img class="fondo1" src="Imagenes/Fondo 1.jpg" alt="Una calculadora y papeles en una mesa">
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="div main">
+                <label for="nombreapellido">Nombre y Apellido:</label>
+                <input type="text" id="nombreapellido" class="input-class" required placeholder="Nombre Y Apellido">
+                <label for="correoelectronico">Correo Electornico:</label>
+                <input type="email" id="correoelectronico" class="input-class" required placeholder="Email@Dominio.com">
+                <label for="Telefono">Telefono</label>
+                <input type="tel" id="Telefono" class="input-class" required placeholder="(+XX)XXXXXXXX">
+                <label for="Contacto">Mensaje:</label>
+            </div>
+                <textarea name="Contacto" id="Contacto" cols="70" rows="10" required></textarea>
+
+                <fieldset>
+                    <legend>¿Como le gustaria que lo Contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="Contacto" value="Email" id="radio-email">Email</label>
+                            
+                    <label for="radio-telefono"><input type="radio" name="Contacto" value="Telefono" id="radio-telefono">Telefono</label>
+                            
+                    <label for="radio-whats"><input type="radio" name="Contacto" value="WhatsApp" id="radio-whats" checked>WhatsApp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend class="check">¿En Cual Horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                    <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+
+
+
+
+    </main>
+</body>
+</html>
